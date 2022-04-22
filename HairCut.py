@@ -13,7 +13,7 @@ from requests_toolbelt import MultipartEncoder
 import requests
 from winsound import Beep
 # hairCookie = 'agreeChecked=true; JSESSIONID=E2FEE84FB04D54A78EC69924ECCEEC5A; _ga=GA1.3.358036560.1616338531; UM_distinctid=17ce3baaa74600-02908cdd167d45-561a135a-fa000-17ce3baaa75662; dailyreport.sjtu=ffffffff097e1f5545525d5f4f58455e445a4a4229a0'
-hairCookie = 'agreeChecked=true; JSESSIONID=A3946EEFE698D0542FCF1667E0F633C4; _ga=GA1.3.358036560.1616338531; UM_distinctid=17ce3baaa74600-02908cdd167d45-561a135a-fa000-17ce3baaa75662; _gid=GA1.3.1460440879.1650205309; dailyreport.sjtu=ffffffff097e1f5045525d5f4f58455e445a4a4229a0'
+hairCookie = 'agreeChecked=true; JSESSIONID=536C9C0930B788AB50D9683D7A828522; _ga=GA1.3.358036560.1616338531; UM_distinctid=17ce3baaa74600-02908cdd167d45-561a135a-fa000-17ce3baaa75662; dailyreport.sjtu=ffffffff097e1f5545525d5f4f58455e445a4a4229a0'
 spicyHeader = {
     'cookie': hairCookie
 }
@@ -102,13 +102,13 @@ def getOne(id,):
     Beep(1000, 1000)
 
 if __name__ == '__main__':
-    alth = []
-    sp = []
-
-    for i in range(18):
-        sp.append(f'lineType=TWO&date=2022-04-{i}')
-        sp.append(f'lineType=THIRD&date=2022-04-{i}')
-        sp.append(f'lineType=FOURTH&date=2022-04-{i}')
+    # alth = []
+    # sp = []
+    #
+    # for i in range(18):
+    #     sp.append(f'lineType=TWO&date=2022-04-{i}')
+    #     sp.append(f'lineType=THIRD&date=2022-04-{i}')
+    #     sp.append(f'lineType=FOURTH&date=2022-04-{i}')
 
     # for i in range(len(sp)):
     #     alth.append(threading.Thread(target=getList2, args=(sp[i],)))
@@ -119,4 +119,4 @@ if __name__ == '__main__':
     # for th in alth:
     #     th.join()
 
-    getList2('lineType=FOURTH&date=2022-04-19')
+    getList2('lineType=FOURTH&date=2022-04-22')
