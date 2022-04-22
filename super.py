@@ -19,7 +19,7 @@ import requests
 from winsound import Beep
 # hairCookie = 'agreeChecked=true; JSESSIONID=E2FEE84FB04D54A78EC69924ECCEEC5A; _ga=GA1.3.358036560.1616338531; UM_distinctid=17ce3baaa74600-02908cdd167d45-561a135a-fa000-17ce3baaa75662; dailyreport.sjtu=ffffffff097e1f5545525d5f4f58455e445a4a4229a0'
 hairCookie = 'agreeChecked=true; JSESSIONID=A3946EEFE698D0542FCF1667E0F633C4; _ga=GA1.3.358036560.1616338531; UM_distinctid=17ce3baaa74600-02908cdd167d45-561a135a-fa000-17ce3baaa75662; _gid=GA1.3.1460440879.1650205309; dailyreport.sjtu=ffffffff097e1f5045525d5f4f58455e445a4a4229a0'
-superCookie = 'agreeChecked=true; JSESSIONID=96A658AF7277FEDAE09917FDF9A71412; _ga=GA1.3.358036560.1616338531; UM_distinctid=17ce3baaa74600-02908cdd167d45-561a135a-fa000-17ce3baaa75662; dailyreport.sjtu=ffffffff097e1f5545525d5f4f58455e445a4a4229a0'
+superCookie = 'agreeChecked=true; JSESSIONID=F7210923D9FB1C950BD0F25F8909C3ED; _ga=GA1.3.358036560.1616338531; UM_distinctid=17ce3baaa74600-02908cdd167d45-561a135a-fa000-17ce3baaa75662; dailyreport.sjtu=ffffffff097e1f5545525d5f4f58455e445a4a4229a0'
 
 userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36 Edg/96.0.1054.29'
 spicyHeader = {
@@ -130,4 +130,4 @@ if __name__ == '__main__':
     # for th in alth:
     #     th.join()
 
-    getList2('lineType=DQJYCS&date=2022-04-22')
+    getList2('lineType=DQJYCS&date=2022-04-23')
